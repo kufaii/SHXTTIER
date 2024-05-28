@@ -1,53 +1,45 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=14987088&assignment_repo_type=AssignmentRepo)
-# My eCommerce App
+# This is a fork of the phase 2 project for public viewing
+Since the original repo isnt available for the public, im creating this fork solely to showcase my past project
+Deployed but unmaintained version: [Deployed Version](https://shxttier.vercel.app/)
 
-## Tujuan Pembelajaran
+# SHXTTIER
+A high-end fashion-focused e-commerce heavily inspired by ZARA
 
-- Student mampu membuat aplikasi server dengan menggunakan menggunakan Typescript, NEXT.js dan melakukan proses CRUD dengan database MongoDB
-- Student mampu membuat web aplikasi dengan menggunakan framework NEXT.js
-- Student mampu menghandle navigasi pada NEXT.js
-- Student mampu menghandle authentikasi pada NEXT.js
-- Student mampu mengimplementasikan CSR & SSR pada NEXT.js
+## Key Feature
+- Product listed elegantly, showcasing more of the 'vibe' than the product itself
+- Using infinite scroll for performance improvement
 
-## Aturan Umum
+## Stack Used
+### Frontend
+- **Next.js**: Framework for server-rendered React applications.
+- **React**: UI library for building user interfaces.
+- **React Icons**: For using popular icons in React projects.
+- **React Infinite Scroll Component**: For implementing infinite scroll functionality.
+- **TailwindCSS**: For utility-first CSS styling.
+  
+### Backend
+- **Node.js**: JavaScript runtime environment.
+- **MongoDB**: NoSQL database.
+- **BcryptJS**: For hashing passwords.
+- **Jose**: For cryptographic operations.
+- **JSON Web Token (JWT)**: For authentication and authorization.
+- **Zod**: For schema validation.
 
-Challenge Hacktiv8 bersifat latihan WAJIB yang menjunjung tinggi INTEGRITAS. Segala bentuk ketidakjujuran meliputi peniruan, plagiarisme, pemalsuan pengerjaan akan mendapatkan tindakan tegas dari akademik.
+# Screenshot
+## Home page
+![image](https://github.com/kufaii/SHXTTIER/assets/157726348/0ead382b-029f-4dc8-99a7-066eec4680d2)
 
-Untuk melatih best practice di lapangan kerja, student diharuskan untuk melakukan git commit minimal 1 hari 4 kali dengan message yang deskriptif atau commit message yang sesuai
+## Login & Register page
+![image](https://github.com/kufaii/SHXTTIER/assets/157726348/fe2a0b91-f100-46c9-ac5a-e39b83ce4381)
+![image](https://github.com/kufaii/SHXTTIER/assets/157726348/1806d353-2c43-4a83-9347-8ade2c7d511c)
 
-## Ringkasan
+## Product page
+![image](https://github.com/kufaii/SHXTTIER/assets/157726348/baee86e0-0576-41a5-ae44-39c01aeed51c)
 
-My eCommerce App adalah sebuah web aplikasi yang dibangun menguunakan Typescript , framework NEXT.js dan database MongoDB, jadi kerjakan dengan baik sebagai bekal portofolio kamu.
+## Product Detail page
+![image](https://github.com/kufaii/SHXTTIER/assets/157726348/35b8beea-3e44-4e4c-83ed-daa2700d5c80)
 
-Pada challenge ini, kamu diminta untuk membuat aplikasi client-server dengan detail sebagai berikut:
+## Wishlist/Cart page
+![image](https://github.com/kufaii/SHXTTIER/assets/157726348/c7a373eb-2d1e-4b94-b6e0-464c3d85d082)
 
-### Halaman
 
-- [ ] Halaman Register
-- [ ] Halaman Login
-- [ ] Halaman Home
-  - [ ] Banner Promo
-  - [ ] Detail info Ecommerce
-  - [ ] Featured Product (5-10 product) + “see-all”
-- [ ] Halaman Product
-- [ ] List Product
-  - [ ] Fitur Search
-  - [ ] Fitur Pagination (menggunakan infinite scroll)
-  - [ ] Fitur Add to wishlist
-- [ ] Halaman Detail Product
-  - [ ] Fitur Add to wishlist
-  - [ ] Implementasi Meta Tag di Head sesuai detail product
-- [ ] Halaman Wishlist Product
-  - [ ] List Wishlist
-  - [ ] Fitur Remove Wishlist
-
-### Fitur
-
-- [ ] Fitur register
-- [ ] Fitur login
-- [ ] Fitur show list product
-- [ ] Fitur show detail product
-- [ ] Fitur add to wishlist
-- [ ] Fitur remove wishlist
-- [ ] Fitur search product berdasarkan nama (implement menerapkan debounce)
-- [ ] Fitur pagination (implement infinite scroll)
