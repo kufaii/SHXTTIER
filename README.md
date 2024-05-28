@@ -1,5 +1,5 @@
-# This is a fork of the phase 2 project for public viewing
-Since the original repo isnt available for the public, im creating this fork solely to showcase my past project
+# This is a cloned repo of the phase 2 project for public viewing
+Since the original repo isnt available for the public, im creating this fork solely to showcase my past project. 
 Deployed but unmaintained version: [Deployed Version](https://shxttier.vercel.app/)
 
 # SHXTTIER
